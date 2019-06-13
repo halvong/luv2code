@@ -2,7 +2,13 @@
 <module type="JAVA_MODULE" version="4">
   <component name="FacetManager">
     <facet type="Spring" name="Spring">
-      <configuration />
+      <configuration>
+        <fileset id="fileset" name="applicationContext" removed="false">
+          <file>file://$MODULE_DIR$/src/com/luv2code/springdemo/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/com/luv2code/springdemo/applicationContext.xml</file>
+          <file>file://$MODULE_DIR$/src/applicationContext.xml</file>
+        </fileset>
+      </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
@@ -13,5 +19,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="Spring" level="project" />
+    <orderEntry type="library" name="spring-websocket-5.1.7.RELEASE" level="project" />
   </component>
 </module>
